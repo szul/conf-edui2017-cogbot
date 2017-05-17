@@ -1,0 +1,33 @@
+{
+  "name": "conf-edui2017-cogbot",
+  "version": "0.1.0",
+  "description": "Microsoft Bot Framework cognitive language services example for the edUi Conference",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szul/conf-edui2017-cogbot.git"
+  },
+  "keywords": [
+    "bots",
+    "bot-framework",
+    "typescript",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Michael Szul <michael@szul.us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szul/conf-edui2017-cogbot/issues"
+  },
+  "homepage": "https://github.com/szul/conf-edui2017-cogbot#readme",
+  "dependencies": {
+    "botbuilder": "^3.8.3",
+    "restify": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/restify": "^4.3.1"
+  }
+}
