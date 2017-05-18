@@ -1,0 +1,10 @@
+<conference name="edui" start-date="2017-09-25" end-date="2017-09-27">
+    <day date="2017-09-25">
+        <event type="keynote" start-time="9:00" end-time="10:00">
+            <location>Jefferson Theater</location>
+            <speakers>Cory Doctorow</speakers>
+            <title>Opening Keynote</title>
+            <keywords>keynote</keywords>
+        </event>
+    </day>
+</conference>
