@@ -1,6 +1,8 @@
 import * as restify from "restify";
 import * as builder from "botbuilder";
 
+require("dotenv-extended").load();
+
 function startServer(): void {
     var server = restify.createServer();
     server.listen(process.env.port || process.env.PORT || 3978, () => {

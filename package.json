@@ -25,6 +25,7 @@
   "homepage": "https://github.com/szul/conf-edui2017-cogbot#readme",
   "dependencies": {
     "botbuilder": "^3.8.3",
+    "dotenv-extended": "^2.0.0",
     "restify": "^4.3.0"
   },
   "devDependencies": {
