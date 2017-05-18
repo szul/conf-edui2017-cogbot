@@ -4,7 +4,7 @@ This repo houses the coding examples and demos for my [edUi Conference](http://e
 
 This particular repository is a sister repository to an [example bot demo](https://github.com/szul/conf-edui2017-examplebot). That repo's code is designed to showcase many of the dialog and UI functionality that Microsoft's Bot Builder offers. This repo is designed to showcase the available cognitive service integration.
 
-### How to install
+### How to install and run
 
 From a shell:
 
@@ -12,4 +12,6 @@ From a shell:
 git clone https://github.com/szul/conf-edui2017-cogbot.git
 cd conf-edui2017-cogbot
 npm install
+tsc -p tsconfig.json
+node server.js
 ```
