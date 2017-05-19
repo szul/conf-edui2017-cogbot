@@ -3,7 +3,14 @@ import * as restify from "restify";
 
 require("dotenv-extended").load();
 
-var parser = require("parser");
+var parser = require("./parser");
+
+function getEntities(b: any, a: any): any {
+    return {
+          person: b.EntityRecognizer.findEntity(a.intent.entities, "person")
+        , topic: b.EntityRecognizer.findEntity(a.intent.entities, "topic")
+    };
+}
 
 function startServer(): void {
     var server = restify.createServer();
@@ -35,14 +42,7 @@ function startBot(server: restify.Server): void {
 
     bot.dialog("location", [
         (sess, args, next) => {
-            console.log(args);
-            var person = builder.EntityRecognizer.findEntity(args.intent.entities, "person");
-            console.log(person);
-            var topic = builder.EntityRecognizer.findEntity(args.intent.entities, "topic");
-            console.log(topic);
-        },
-        (sess, results) => {
-
+            var text = parser.parse(parser.Intent.LOCATION, getEntities(builder, args));
         }
     ]).triggerAction({
         matches: "location"
@@ -50,14 +50,7 @@ function startBot(server: restify.Server): void {
 
     bot.dialog("schedule", [
         (sess, args, next) => {
-            console.log(args);
-            var person = builder.EntityRecognizer.findEntity(args.intent.entities, "person");
-            console.log(person);
-            var topic = builder.EntityRecognizer.findEntity(args.intent.entities, "topic");
-            console.log(topic);
-        },
-        (sess, results) => {
-
+            var text = parser.parse(parser.Intent.SCHEDULE, getEntities(builder, args));
         }
     ]).triggerAction({
         matches: "schedule"
@@ -65,17 +58,10 @@ function startBot(server: restify.Server): void {
 
     bot.dialog("topic", [
         (sess, args, next) => {
-            console.log(args);
-            var person = builder.EntityRecognizer.findEntity(args.intent.entities, "person");
-            console.log(person);
-            var topic = builder.EntityRecognizer.findEntity(args.intent.entities, "topic");
-            console.log(topic);
-        },
-        (sess, results) => {
-
+            var text = parser.parse(parser.Intent.TOPIC, getEntities(builder, args));
         }
     ]).triggerAction({
-        matches: "topics"
+        matches: "topic"
     });
 
 }
