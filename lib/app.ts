@@ -1,7 +1,9 @@
-import * as restify from "restify";
 import * as builder from "botbuilder";
+import * as restify from "restify";
 
 require("dotenv-extended").load();
+
+var parser = require("parser");
 
 function startServer(): void {
     var server = restify.createServer();
@@ -17,7 +19,7 @@ function startBot(server: restify.Server): void {
         appPassword: process.env.MICROSOFT_APP_PASSWORD
     });
     var bot = new builder.UniversalBot(conn, (sess) => {
-        if(sess.message.text.toLowerCase() == "hello") {
+        if(sess.message.text.toLowerCase() === "hello") {
             sess.send("Hello. Welcome to the edUi bot. You can learn about the conference schedule and speakers here.");
         }
         else {
