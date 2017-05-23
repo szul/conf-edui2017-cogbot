@@ -2,6 +2,8 @@ import * as fs from "fs";
 import * as cheerio from "cheerio";
 import * as builder from "botbuilder";
 
+var dialogs = require("./dialogs");
+
 export enum Intent {
       LOCATION = 0
     , SCHEDULE = 1
@@ -15,68 +17,87 @@ export interface Event {
     , title: string
     , speakers: string
     , location: string
+    , keywords: string
     , type: string
 }
 
 const file: string = fs.readFileSync("./edui.xml", "utf-8");
 const xml: CheerioStatic = cheerio.load(file);
 
-function getData(entity: any): Array<Event> {
-    if(entity != null) {
-        if(entity === "person") {
-
+function getData(e: any): Array<Event> {
+    var d = [];
+    if(e != null) {
+        if(e === "person") {
+            d.concat(d, getPerson(e.entity))
         }
-        if(entity === "topic") {
-
+        if(e === "topic") {
+            d.concat(d, getTopic(e.entity))
         }
+        return d;
     }
     return null;
 }
 
-function getPerson(name: string): Array<Event> {
+function getPerson(search: string): Array<Event> {
+    return writeEvent(getEventNodes("speakers", search));
+}
+
+function getTopic(search: string): Array<Event> {
+    return writeEvent([].concat(getEventNodes("keywords", search), getEventNodes("title", search)));
+}
+
+function getEventNodes(s: string, t: string): Array<CheerioElement> {
     var events: Array<CheerioElement> = [];
-    xml("speakers").each((idx: number, elem: CheerioElement) => {
-        if(elem.nodeValue.indexOf(name) > -1) {
+    xml(s).each((idx: number, elem: CheerioElement) => {
+        if(elem.nodeValue.indexOf(t) > -1) {
             events.push(elem.parent);
         }
     });
-    return writeEvent(events);
-}
-
-function getTopic(): string {
-    return null;
+    return events;
 }
 
 function writeEvent(events: Array<CheerioElement>): Array<Event> {
     var results: Array<Event> = [];
     for(let i = 0; i < events.length; i++) {
+        let elem = xml(events[i]);
         let r: Event = {
-              date: ""
-            , startTime: ""
-            , endTime: ""
-            , title: ""
-            , speakers: ""
-            , location: ""
-            , type: ""
+              date: elem.parent().attr("date")
+            , startTime: elem.attr("start-time")
+            , endTime: elem.attr("end-time")
+            , title: elem.find("title").text()
+            , speakers: elem.find("speakers").text()
+            , location: elem.find("location").text()
+            , keywords: elem.find("keywords").text()
+            , type: elem.attr("type")
         };
         results.push(r);
     }
     return results;
 }
 
-export function parse(intent: Intent, entities: any): string {
-    var person: builder.IEntity = entities.person;
-    var topic: builder.IEntity = entities.topic;
-    console.log(person);
-    console.log(topic);
+export function parse(sess: builder.Session, intent: Intent, entities: any): builder.HeroCard | Array<string> {
+    var r = [].concat(getData(entities.person), getData(entities.topic));
     switch(intent) {
         case Intent.LOCATION:
-            break;
+            if(r.length > 1) {
+                return dialogs.createChoiceOptions(r);
+            }
+            return (r.length === 1) ? dialogs.createHeroCard(sess, r[0]) : null;
         case Intent.SCHEDULE:
-
-            break;
+            if(r.length > 1) {
+                return dialogs.createChoiceOptions(r);
+            }
+            return (r.length === 1) ? dialogs.createHeroCard(sess, r[0]) : null;
         case Intent.TOPIC:
-            break;
+            if(r.length > 1) {
+                return dialogs.createChoiceOptions(r);
+            }
+            return (r.length === 1) ? dialogs.createHeroCard(sess, r[0]) : null;
     }
     return null;
+}
+
+export function findExact(s: string, t: string): Event {
+    var e = writeEvent(getEventNodes(s, t));
+    return (e.length > 0) ? e[0] : null;
 }

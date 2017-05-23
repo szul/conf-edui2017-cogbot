@@ -4,6 +4,7 @@ import * as restify from "restify";
 require("dotenv-extended").load();
 
 var parser = require("./parser");
+var dialogs = require("./dialogs");
 
 function getEntities(b: any, a: any): any {
     return {
@@ -42,7 +43,16 @@ function startBot(server: restify.Server): void {
 
     bot.dialog("location", [
         (sess, args, next) => {
-            var text = parser.parse(parser.Intent.LOCATION, getEntities(builder, args));
+            var d = parser.parse(sess, parser.Intent.LOCATION, getEntities(builder, args));
+            if(d instanceof Array) {
+                builder.Prompts.choice(sess, "We are showing multiple results. Please choose one:", d);
+            }
+            else {
+                sess.send(new builder.Message(sess).addAttachment(d));
+            }
+        },
+        (sess, results) => {
+            sess.send(new builder.Message(sess).addAttachment(dialogs.createHeroCard(sess, parser.findExact(results.response.entity))));
         }
     ]).triggerAction({
         matches: "location"
@@ -50,7 +60,7 @@ function startBot(server: restify.Server): void {
 
     bot.dialog("schedule", [
         (sess, args, next) => {
-            var text = parser.parse(parser.Intent.SCHEDULE, getEntities(builder, args));
+            var d = parser.parse(sess, parser.Intent.SCHEDULE, getEntities(builder, args));
         }
     ]).triggerAction({
         matches: "schedule"
@@ -58,7 +68,7 @@ function startBot(server: restify.Server): void {
 
     bot.dialog("topic", [
         (sess, args, next) => {
-            var text = parser.parse(parser.Intent.TOPIC, getEntities(builder, args));
+            var d = parser.parse(sess, parser.Intent.TOPIC, getEntities(builder, args));
         }
     ]).triggerAction({
         matches: "topic"

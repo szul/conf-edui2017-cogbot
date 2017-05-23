@@ -11,6 +11,7 @@
             },
     "files": [
         "./lib/scraper.ts",
+        "./lib/dialogs.ts",
         "./lib/parser.ts",
         "./lib/app.ts"
     ]
