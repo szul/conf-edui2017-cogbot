@@ -25,17 +25,14 @@ const file: string = fs.readFileSync("./edui.xml", "utf-8");
 const xml: CheerioStatic = cheerio.load(file);
 
 function getData(e: any): Array<Event> {
-    var d = [];
     if(e != null) {
-        if(e === "person") {
-            d.concat(d, getPerson(e.entity))
+        if(e.type === "person") {
+            return getPerson(e.entity);
         }
-        if(e === "topic") {
-            d.concat(d, getTopic(e.entity))
+        if(e.type === "topic") {
+            return getTopic(e.entity);
         }
-        return d;
     }
-    return null;
 }
 
 function getPerson(search: string): Array<Event> {
@@ -43,13 +40,13 @@ function getPerson(search: string): Array<Event> {
 }
 
 function getTopic(search: string): Array<Event> {
-    return writeEvent([].concat(getEventNodes("keywords", search), getEventNodes("title", search)));
+    return writeEvent(getEventNodes("keywords", search).concat(getEventNodes("title", search)));
 }
 
 function getEventNodes(s: string, t: string): Array<CheerioElement> {
     var events: Array<CheerioElement> = [];
     xml(s).each((idx: number, elem: CheerioElement) => {
-        if(elem.nodeValue.indexOf(t) > -1) {
+        if(xml(elem).text().toLowerCase().indexOf(t.toLowerCase()) > -1) {
             events.push(elem.parent);
         }
     });
@@ -76,7 +73,7 @@ function writeEvent(events: Array<CheerioElement>): Array<Event> {
 }
 
 export function parse(sess: builder.Session, intent: Intent, entities: any): builder.HeroCard | Array<string> {
-    var r = [].concat(getData(entities.person), getData(entities.topic));
+    var r = getData(entities.person).concat(getData(entities.topic));
     switch(intent) {
         case Intent.LOCATION:
             if(r.length > 1) {
