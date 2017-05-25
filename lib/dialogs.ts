@@ -6,7 +6,7 @@ export function createHeroCard(sess: builder.Session, event: any): builder.HeroC
         .subtitle(event.location)
         .text(event.speakers)
         .images([
-            builder.CardImage.create(sess, (event.images != null) ? event.images[0] : "")
+            builder.CardImage.create(sess, (event.images != null) ? event.images[0].link : "")
         ])
         .buttons([
             builder.CardAction.openUrl(sess, event.link, "Learn more...")
