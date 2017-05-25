@@ -2,6 +2,8 @@ import * as request from "request-promise";
 import * as cheerio from "cheerio";
 import * as fs from "fs";
 
+var requestSync = require("sync-request");
+
 const pages: Array<string> = [
      "http://eduiconf.org/schedule/#edui-schedule-day-1"
     ,"http://eduiconf.org/schedule/#edui-schedule-day-2"
@@ -21,12 +23,23 @@ function processPage(body: string, day: string): void {
      _xml += `<day date="${day}">`;
      c("article").each((idx: number, elem: CheerioElement) => {
          if(c(elem).attr("data-start").indexOf(day) > -1) {
+            let link = c(elem).find("a").attr("href");
+            let img = "";
+            try {
+               let resp = requestSync("GET", link);
+               let l = cheerio.load(resp.getBody());
+               l(".attachment-featured-speakers").each((ix: number, el: CheerioElement) => {
+                   img += `<image type="speaker">${l(el).attr("src")}</image>`;
+               });
+            }
+            catch(e) { }
             _xml += `<event type="${c(elem).find(".session-type").text().trim()}" ${getDate(c(elem).find(".session-date").text().trim())}>`;
             _xml += `<title>${c(elem).find(".full-session-title").text().trim()}</title>`;
             _xml += `<location>${c(elem).find(".session-location").text().trim()}</location>`;
             _xml += `<speakers>${c(elem).find(".session-speakers").text().trim()}</speakers>`;
             _xml += `<keywords>${c(elem).find(".session-categories").text().trim().replace("Categories: ", "")}</keywords>`;
-            _xml += `<link>${c(elem).find("a").attr("href")}</link>`;
+            _xml += `<page>${link}</page>`;
+            _xml += `<images>${img}</images>`;
             _xml += "</event>";
          }
      });

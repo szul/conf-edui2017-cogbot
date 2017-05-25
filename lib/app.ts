@@ -61,6 +61,15 @@ function startBot(server: restify.Server): void {
     bot.dialog("schedule", [
         (sess, args, next) => {
             var d = parser.parse(sess, parser.Intent.SCHEDULE, getEntities(builder, args));
+            if(d instanceof Array) {
+                builder.Prompts.choice(sess, "We are showing multiple results. Please choose one:", d);
+            }
+            else {
+                sess.send(new builder.Message(sess).addAttachment(d));
+            }
+        },
+        (sess, results) => {
+            sess.send(new builder.Message(sess).addAttachment(dialogs.createHeroCard(sess, parser.findExact("title", results.response.entity))));
         }
     ]).triggerAction({
         matches: "schedule"
@@ -69,6 +78,15 @@ function startBot(server: restify.Server): void {
     bot.dialog("topic", [
         (sess, args, next) => {
             var d = parser.parse(sess, parser.Intent.TOPIC, getEntities(builder, args));
+            if(d instanceof Array) {
+                builder.Prompts.choice(sess, "We are showing multiple results. Please choose one:", d);
+            }
+            else {
+                sess.send(new builder.Message(sess).addAttachment(d));
+            }
+        },
+        (sess, results) => {
+            sess.send(new builder.Message(sess).addAttachment(dialogs.createHeroCard(sess, parser.findExact("title", results.response.entity))));
         }
     ]).triggerAction({
         matches: "topic"

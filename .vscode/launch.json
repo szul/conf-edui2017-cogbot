@@ -4,8 +4,17 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Launch Bot",
             "program": "${workspaceRoot}\\server.js",
+            "outFiles": [
+                "${workspaceRoot}/dist/**/*.js"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Scraper",
+            "program": "${workspaceRoot}\\dist\\scraper.js",
             "outFiles": [
                 "${workspaceRoot}/dist/**/*.js"
             ]

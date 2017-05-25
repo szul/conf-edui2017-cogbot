@@ -10,6 +10,11 @@ export enum Intent {
     , TOPIC = 2
 }
 
+export interface Image {
+      type: string
+    , link: string
+}
+
 export interface Event {
       date: string
     , startTime: string
@@ -20,6 +25,7 @@ export interface Event {
     , keywords: string
     , link: string
     , type: string
+    , images?: Array<Image>
 }
 
 const file: string = fs.readFileSync("./edui.xml", "utf-8");
@@ -66,9 +72,19 @@ function writeEvent(events: Array<CheerioElement>): Array<Event> {
             , speakers: elem.find("speakers").text()
             , location: elem.find("location").text()
             , keywords: elem.find("keywords").text()
-            , link: elem.find("link").text()
+            , link: elem.find("page").text()
             , type: elem.attr("type")
         };
+        if(elem.find("image").length > 0) {
+            let imgs: Array<Image> = [];
+            elem.find("image").each((idx: number, el: CheerioElement) => {
+                imgs.push({
+                      type: xml(el).attr("type")
+                    , link: xml(el).text()
+                });
+            });
+            r.images = imgs;
+        }
         results.push(r);
     }
     return results;

@@ -28,7 +28,8 @@
     "cheerio": "^0.22.0",
     "dotenv-extended": "^2.0.0",
     "request-promise": "^4.2.1",
-    "restify": "^4.3.0"
+    "restify": "^4.3.0",
+    "sync-request": "^4.0.3"
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.1",
