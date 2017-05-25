@@ -52,7 +52,7 @@ function startBot(server: restify.Server): void {
             }
         },
         (sess, results) => {
-            sess.send(new builder.Message(sess).addAttachment(dialogs.createHeroCard(sess, parser.findExact(results.response.entity))));
+            sess.send(new builder.Message(sess).addAttachment(dialogs.createHeroCard(sess, parser.findExact("title", results.response.entity))));
         }
     ]).triggerAction({
         matches: "location"
