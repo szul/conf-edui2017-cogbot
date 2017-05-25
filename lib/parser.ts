@@ -18,6 +18,7 @@ export interface Event {
     , speakers: string
     , location: string
     , keywords: string
+    , link: string
     , type: string
 }
 
@@ -65,6 +66,7 @@ function writeEvent(events: Array<CheerioElement>): Array<Event> {
             , speakers: elem.find("speakers").text()
             , location: elem.find("location").text()
             , keywords: elem.find("keywords").text()
+            , link: elem.find("link").text()
             , type: elem.attr("type")
         };
         results.push(r);

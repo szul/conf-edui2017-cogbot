@@ -5,976 +5,382 @@
             <location>Jefferson Theater</location>
             <speakers></speakers>
             <keywords></keywords>
+            <link>http://eduiconf.org/sessions/breakfast-and-check-in/</link>
         </event>
         <event type="" start-time="9:00 am" end-time="10:00 am">
             <title>Opening Keynote</title>
             <location>Jefferson Theater</location>
             <speakers></speakers>
             <keywords></keywords>
+            <link>#</link>
         </event>
         <event type="Talk" start-time="10:15 am" end-time="11:00 am">
             <title>Going Beyond Google: Custom Site Search Made Easy</title>
             <location>Old Metropolitan</location>
             <speakers>Brian Rimel        Matt Clark</speakers>
             <keywords>CSS, HTML, JavaScript, coding, search</keywords>
+            <link>http://eduiconf.org/sessions/going-beyond-google/</link>
         </event>
         <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
             <title>Finding Eternal REST</title>
             <location>Old Metropolitan</location>
             <speakers>Curtiss Grymala        John Rhea</speakers>
             <keywords>CMS, JavaScript, coding</keywords>
+            <link>http://eduiconf.org/sessions/finding-eternal-rest/</link>
         </event>
         <event type="Talk" start-time="10:15 am" end-time="11:00 am">
             <title>The Accessible User Experience</title>
             <location>LiveArts: Gibson</location>
             <speakers>Robin Smail</speakers>
             <keywords>Accessibility</keywords>
+            <link>http://eduiconf.org/sessions/accessible-ux/</link>
         </event>
         <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
             <title>Giving Words the Attention They Deserve</title>
             <location>LiveArts: Gibson</location>
             <speakers>Heidi Burkhardt</speakers>
             <keywords>content</keywords>
+            <link>http://eduiconf.org/sessions/giving-words-the-attention-they-deserve/</link>
         </event>
         <event type="Talk" start-time="10:15 am" end-time="11:00 am">
             <title>Empathetic Design: Creating Safe Spaces</title>
             <location>LiveArts: Founders</location>
             <speakers>Carrie Moran</speakers>
             <keywords>user experience</keywords>
+            <link>http://eduiconf.org/sessions/empathetic-design/</link>
         </event>
         <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
             <title>Break Your Own Rules: Creating a Digital Brand System that Encourages Creativity</title>
             <location>LiveArts: Founders</location>
             <speakers>Jeremy Cherry</speakers>
             <keywords>branding, management, process</keywords>
+            <link>http://eduiconf.org/sessions/break-your-own-rules/</link>
         </event>
         <event type="Talk" start-time="10:15 am" end-time="11:00 am">
             <title>Free as in Puppies: The Care & Feeding of “Pet Projects”</title>
             <location>LiveArts: Rehearsal A</location>
             <speakers>Nikki Massaro Kauffman</speakers>
             <keywords>management, process</keywords>
+            <link>http://eduiconf.org/sessions/pet-projects/</link>
         </event>
         <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
             <title>User Experience Design in Virtual and Augmented Reality</title>
             <location>LiveArts: Rehearsal A</location>
             <speakers>Dan Cotting</speakers>
             <keywords>VR, interaction design, prototyping, user experience, user interface</keywords>
+            <link>http://eduiconf.org/sessions/ux-vr/</link>
         </event>
         <event type="" start-time="12:00 pm" end-time="1:30 pm">
             <title>Lunch</title>
             <location>Various</location>
             <speakers></speakers>
             <keywords></keywords>
+            <link>http://eduiconf.org/sessions/lunch/</link>
         </event>
         <event type="Mini-workshop" start-time="1:30 pm" end-time="3:00 pm">
             <title>Getting Crafty with Components: Breaking Down the How and Why of Atomic Design</title>
             <location>Old Metropolitan</location>
             <speakers>John Williams        Jenny Slaughter</speakers>
             <keywords>Visual Design, responsive design</keywords>
+            <link>http://eduiconf.org/sessions/atomic-design/</link>
         </event>
         <event type="Talk" start-time="3:30 pm" end-time="4:00 pm">
             <title>Accessible Development For All!</title>
             <location>Old Metropolitan</location>
             <speakers>Joni Halabi</speakers>
             <keywords>Accessibility, HTML, coding</keywords>
+            <link>http://eduiconf.org/sessions/accessible-development-for-all/</link>
         </event>
         <event type="Talk" start-time="1:30 pm" end-time="2:15 pm">
             <title>Representing Diversity on the Web: How to create inclusive virtual campus environments</title>
             <location>LiveArts: Gibson</location>
             <speakers>Conny Liegl</speakers>
             <keywords>content, process, strategy</keywords>
+            <link>http://eduiconf.org/sessions/diversity-on-the-web/</link>
         </event>
         <event type="Talk" start-time="2:30 pm" end-time="3:15 pm">
             <title>Internet of Things: Assessing Physical Spaces</title>
             <location>LiveArts: Gibson</location>
             <speakers>Jonathan Bradley        Scott Fralin</speakers>
             <keywords>JavaScript, coding</keywords>
+            <link>http://eduiconf.org/sessions/iot-assessing-physical-spaces/</link>
         </event>
         <event type="Public Square" start-time="3:30 pm" end-time="4:00 pm">
             <title>You’re the Worst: Content and design strategies for dealing with terrible users</title>
             <location>LiveArts: Gibson</location>
             <speakers>Adrienne Lai</speakers>
             <keywords>Visual Design, content, user experience</keywords>
+            <link>http://eduiconf.org/sessions/youre-the-worst/</link>
         </event>
         <event type="Talk" start-time="1:30 pm" end-time="2:15 pm">
             <title>Customizing LibGuides for n00bs</title>
             <location>LiveArts: Founders</location>
             <speakers>Amanda VerMeulen        Jonathan Beeker</speakers>
             <keywords>CMS, CSS, HTML</keywords>
+            <link>http://eduiconf.org/sessions/libguides-for-n00bs/</link>
         </event>
         <event type="Talk" start-time="2:30 pm" end-time="3:15 pm">
             <title>Journey to an Accessible, Streamlined Campus Theme</title>
             <location>LiveArts: Founders</location>
             <speakers>Kevin Pittman</speakers>
             <keywords>Accessibility, CMS, process</keywords>
+            <link>http://eduiconf.org/sessions/journey-to-an-accessible-streamlined-campus-theme/</link>
         </event>
         <event type="Public Square" start-time="3:30 pm" end-time="4:00 pm">
             <title>Things We Can’t Live Without: Handy Tools for Free to Cheap</title>
             <location>LiveArts: Founders</location>
             <speakers>Valerie Harness        Ivy Lustig</speakers>
             <keywords>social media, user experience, user interface</keywords>
+            <link>http://eduiconf.org/sessions/things-we-cant-live-without/</link>
         </event>
         <event type="Talk" start-time="1:30 pm" end-time="2:15 pm">
             <title>Building Bots for the Conversation UI</title>
             <location>LiveArts: Rehearsal A</location>
             <speakers>Michael Szul</speakers>
             <keywords>JavaScript, coding, user interface</keywords>
+            <link>http://eduiconf.org/sessions/building-bots-for-the-conversation-ui/</link>
         </event>
         <event type="Talk" start-time="2:30 pm" end-time="3:15 pm">
             <title>The Internal Agency: Bringing websites to the masses</title>
             <location>LiveArts: Rehearsal A</location>
             <speakers>Lauren Moriarty</speakers>
             <keywords>CMS, management, process</keywords>
+            <link>http://eduiconf.org/sessions/the-internal-agency/</link>
         </event>
         <event type="Talk" start-time="3:30 pm" end-time="4:00 pm">
             <title>Joy from the Collections: Embracing Flat Hierarchies</title>
             <location>LiveArts: Rehearsal A</location>
             <speakers>Natalie Buda Smith</speakers>
             <keywords>information architecture, process, strategy</keywords>
+            <link>http://eduiconf.org/sessions/joy-from-the-collections-embracing-flat-hierarchies/</link>
         </event>
         <event type="Keynote" start-time="4:15 pm" end-time="5:15 pm">
             <title>Dark Patterns and Bad Business Models: “I Can’t Let You Do That, Dave.”</title>
             <location>Jefferson Theater</location>
             <speakers>Cory Doctorow</speakers>
             <keywords></keywords>
+            <link>http://eduiconf.org/sessions/dark-patterns-and-bad-business-models-i-cant-let-you-do-that-dave/</link>
         </event>
         <event type="" start-time="6:30 pm" end-time="9:30 pm">
             <title>Opening Night Reception</title>
             <location>Various</location>
             <speakers></speakers>
             <keywords></keywords>
-        </event>
-        <event type="" start-time="8:00 am" end-time="9:00 am">
-            <title>Breakfast</title>
-            <location>Jefferson Theater</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Keynote" start-time="9:00 am" end-time="10:00 am">
-            <title>Design For Real Life</title>
-            <location>Jefferson Theater</location>
-            <speakers>Sara Wachter-Boettcher</speakers>
-            <keywords>content</keywords>
-        </event>
-        <event type="Talk" start-time="10:15 am" end-time="11:00 am">
-            <title>User Interface in Google’s Virtual Reality Suite</title>
-            <location>Old Metropolitan</location>
-            <speakers>Anson Parker        David Moody</speakers>
-            <keywords>VR, interaction design, user interface</keywords>
-        </event>
-        <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
-            <title>Google DevFest TBA</title>
-            <location>Old Metropolitan</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Mini-workshop" start-time="10:30 am" end-time="12:00 pm">
-            <title>Content Measurement and Analytics</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Rick Allen</speakers>
-            <keywords>analytics, content</keywords>
-        </event>
-        <event type="Talk" start-time="10:15 am" end-time="11:00 am">
-            <title>User Experience is a Metric: Defining what UX designers actually do so we can push the discipline forward</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Michael Schofield</speakers>
-            <keywords>management, user experience</keywords>
-        </event>
-        <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
-            <title>Tear Down This Wall! Removing boundaries to create an accessible website</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Sarah Arnold        Tabitha Frahm</speakers>
-            <keywords>Accessibility, user testing</keywords>
-        </event>
-        <event type="Talk" start-time="10:15 am" end-time="11:00 am">
-            <title>Building Progressive Web Apps</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Michael Szul        Ashish Pathak</speakers>
-            <keywords>HTML, JavaScript, coding, mobile, responsive design</keywords>
-        </event>
-        <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
-            <title>Hacking User Research: Campus Edition</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Lynn Boyden</speakers>
-            <keywords>user experience, user testing</keywords>
-        </event>
-        <event type="" start-time="12:00 pm" end-time="1:30 pm">
-            <title>Lunch on Your Own</title>
-            <location>Various</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Mini-workshop" start-time="1:30 pm" end-time="3:00 pm">
-            <title>Google DevFest TBA</title>
-            <location>Old Metropolitan</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Talk" start-time="1:30 pm" end-time="2:15 pm">
-            <title>What Responsive Design Can Teach Us About Accessibility</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>John Williams</speakers>
-            <keywords>Accessibility, responsive design</keywords>
-        </event>
-        <event type="Talk" start-time="2:30 pm" end-time="3:00 pm">
-            <title>Is This Better? Google Optimize Primer</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Steven D. Shelton</speakers>
-            <keywords>analytics, user testing</keywords>
-        </event>
-        <event type="Talk" start-time="1:30 pm" end-time="2:15 pm">
-            <title>Case Study: Johns Hopkins University Redesign</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Lauren Custer        Eric Conrad</speakers>
-            <keywords>process, strategy</keywords>
-        </event>
-        <event type="Public Square" start-time="2:30 pm" end-time="3:00 pm">
-            <title>Anything But Users: How We Talk About Humans</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Elissa Frankle</speakers>
-            <keywords>user experience</keywords>
-        </event>
-        <event type="Talk" start-time="1:30 pm" end-time="2:15 pm">
-            <title>An Innovation Engine for Penn State</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Hayley Wildeson</speakers>
-            <keywords>management, process</keywords>
-        </event>
-        <event type="Expert Panel" start-time="2:30 pm" end-time="3:00 pm">
-            <title>Creating a Space for Collaborative Instructional Design</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Kayla McNabb        Lisa Becksford        Neal Henshaw</speakers>
-            <keywords>management, process</keywords>
-        </event>
-        <event type="" start-time="3:00 pm" end-time="3:30 pm">
-            <title>Exhibitor Meet & Greet</title>
-            <location>Various</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Talk" start-time="3:30 pm" end-time="4:15 pm">
-            <title>Google Devfest: TBA</title>
-            <location>Old Metropolitan</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Talk" start-time="4:30 pm" end-time="5:15 pm">
-            <title>Google DevFest: TBA</title>
-            <location>Old Metropolitan</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Talk" start-time="3:30 pm" end-time="4:15 pm">
-            <title>Humans not Zombies: Identity-Based Content Strategy for More Engaging Websites</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Melissa Eggleston</speakers>
-            <keywords>content</keywords>
-        </event>
-        <event type="Talk" start-time="4:30 pm" end-time="5:15 pm">
-            <title>The User Experience of Data Visualization</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Wendy Repass</speakers>
-            <keywords>data visualization, user experience</keywords>
-        </event>
-        <event type="Talk" start-time="3:30 pm" end-time="4:15 pm">
-            <title>Design Sprints: A high-value, low-cost approach to problem solving</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Mike Shelton</speakers>
-            <keywords>management, process, strategy</keywords>
-        </event>
-        <event type="Talk" start-time="4:30 pm" end-time="5:15 pm">
-            <title>The Decentralized University: Improving Digital Experiences One Site at a Time</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Kim Vassiliadis</speakers>
-            <keywords>management, process, strategy</keywords>
-        </event>
-        <event type="Mini-workshop" start-time="3:30 pm" end-time="5:00 pm">
-            <title>Introduction to IIIF</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Shaun Ellis</speakers>
-            <keywords>JavaScript, coding, user interface</keywords>
-        </event>
-        <event type="" start-time="7:00 pm" end-time="10:00 pm">
-            <title>After Party</title>
-            <location>Various</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="" start-time="8:00 am" end-time="9:00 am">
-            <title>Breakfast</title>
-            <location>Various</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Workshop" start-time="9:00 am" end-time="12:00 pm">
-            <title>Building and Animating SVGs</title>
-            <location>CitySpace</location>
-            <speakers>Sarah Drasner</speakers>
-            <keywords>Visual Design, coding</keywords>
-        </event>
-        <event type="Workshop" start-time="9:00 am" end-time="12:00 pm">
-            <title>Compassionate Content & UX</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Sara Wachter-Boettcher</speakers>
-            <keywords>content</keywords>
-        </event>
-        <event type="Workshop" start-time="9:00 am" end-time="12:00 pm">
-            <title>Analytics Workshop</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Nick DeNardis</speakers>
-            <keywords>analytics</keywords>
+            <link>#</link>
         </event>
     </day>
     <day date="2017-09-26">
         <event type="" start-time="8:00 am" end-time="9:00 am">
-            <title>Breakfast and Check In</title>
-            <location>Jefferson Theater</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="" start-time="9:00 am" end-time="10:00 am">
-            <title>Opening Keynote</title>
-            <location>Jefferson Theater</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Talk" start-time="10:15 am" end-time="11:00 am">
-            <title>Going Beyond Google: Custom Site Search Made Easy</title>
-            <location>Old Metropolitan</location>
-            <speakers>Brian Rimel        Matt Clark</speakers>
-            <keywords>CSS, HTML, JavaScript, coding, search</keywords>
-        </event>
-        <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
-            <title>Finding Eternal REST</title>
-            <location>Old Metropolitan</location>
-            <speakers>Curtiss Grymala        John Rhea</speakers>
-            <keywords>CMS, JavaScript, coding</keywords>
-        </event>
-        <event type="Talk" start-time="10:15 am" end-time="11:00 am">
-            <title>The Accessible User Experience</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Robin Smail</speakers>
-            <keywords>Accessibility</keywords>
-        </event>
-        <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
-            <title>Giving Words the Attention They Deserve</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Heidi Burkhardt</speakers>
-            <keywords>content</keywords>
-        </event>
-        <event type="Talk" start-time="10:15 am" end-time="11:00 am">
-            <title>Empathetic Design: Creating Safe Spaces</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Carrie Moran</speakers>
-            <keywords>user experience</keywords>
-        </event>
-        <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
-            <title>Break Your Own Rules: Creating a Digital Brand System that Encourages Creativity</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Jeremy Cherry</speakers>
-            <keywords>branding, management, process</keywords>
-        </event>
-        <event type="Talk" start-time="10:15 am" end-time="11:00 am">
-            <title>Free as in Puppies: The Care & Feeding of “Pet Projects”</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Nikki Massaro Kauffman</speakers>
-            <keywords>management, process</keywords>
-        </event>
-        <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
-            <title>User Experience Design in Virtual and Augmented Reality</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Dan Cotting</speakers>
-            <keywords>VR, interaction design, prototyping, user experience, user interface</keywords>
-        </event>
-        <event type="" start-time="12:00 pm" end-time="1:30 pm">
-            <title>Lunch</title>
-            <location>Various</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Mini-workshop" start-time="1:30 pm" end-time="3:00 pm">
-            <title>Getting Crafty with Components: Breaking Down the How and Why of Atomic Design</title>
-            <location>Old Metropolitan</location>
-            <speakers>John Williams        Jenny Slaughter</speakers>
-            <keywords>Visual Design, responsive design</keywords>
-        </event>
-        <event type="Talk" start-time="3:30 pm" end-time="4:00 pm">
-            <title>Accessible Development For All!</title>
-            <location>Old Metropolitan</location>
-            <speakers>Joni Halabi</speakers>
-            <keywords>Accessibility, HTML, coding</keywords>
-        </event>
-        <event type="Talk" start-time="1:30 pm" end-time="2:15 pm">
-            <title>Representing Diversity on the Web: How to create inclusive virtual campus environments</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Conny Liegl</speakers>
-            <keywords>content, process, strategy</keywords>
-        </event>
-        <event type="Talk" start-time="2:30 pm" end-time="3:15 pm">
-            <title>Internet of Things: Assessing Physical Spaces</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Jonathan Bradley        Scott Fralin</speakers>
-            <keywords>JavaScript, coding</keywords>
-        </event>
-        <event type="Public Square" start-time="3:30 pm" end-time="4:00 pm">
-            <title>You’re the Worst: Content and design strategies for dealing with terrible users</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Adrienne Lai</speakers>
-            <keywords>Visual Design, content, user experience</keywords>
-        </event>
-        <event type="Talk" start-time="1:30 pm" end-time="2:15 pm">
-            <title>Customizing LibGuides for n00bs</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Amanda VerMeulen        Jonathan Beeker</speakers>
-            <keywords>CMS, CSS, HTML</keywords>
-        </event>
-        <event type="Talk" start-time="2:30 pm" end-time="3:15 pm">
-            <title>Journey to an Accessible, Streamlined Campus Theme</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Kevin Pittman</speakers>
-            <keywords>Accessibility, CMS, process</keywords>
-        </event>
-        <event type="Public Square" start-time="3:30 pm" end-time="4:00 pm">
-            <title>Things We Can’t Live Without: Handy Tools for Free to Cheap</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Valerie Harness        Ivy Lustig</speakers>
-            <keywords>social media, user experience, user interface</keywords>
-        </event>
-        <event type="Talk" start-time="1:30 pm" end-time="2:15 pm">
-            <title>Building Bots for the Conversation UI</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Michael Szul</speakers>
-            <keywords>JavaScript, coding, user interface</keywords>
-        </event>
-        <event type="Talk" start-time="2:30 pm" end-time="3:15 pm">
-            <title>The Internal Agency: Bringing websites to the masses</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Lauren Moriarty</speakers>
-            <keywords>CMS, management, process</keywords>
-        </event>
-        <event type="Talk" start-time="3:30 pm" end-time="4:00 pm">
-            <title>Joy from the Collections: Embracing Flat Hierarchies</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Natalie Buda Smith</speakers>
-            <keywords>information architecture, process, strategy</keywords>
-        </event>
-        <event type="Keynote" start-time="4:15 pm" end-time="5:15 pm">
-            <title>Dark Patterns and Bad Business Models: “I Can’t Let You Do That, Dave.”</title>
-            <location>Jefferson Theater</location>
-            <speakers>Cory Doctorow</speakers>
-            <keywords></keywords>
-        </event>
-        <event type="" start-time="6:30 pm" end-time="9:30 pm">
-            <title>Opening Night Reception</title>
-            <location>Various</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="" start-time="8:00 am" end-time="9:00 am">
             <title>Breakfast</title>
             <location>Jefferson Theater</location>
             <speakers></speakers>
             <keywords></keywords>
+            <link>http://eduiconf.org/sessions/breakfast-tues/</link>
         </event>
         <event type="Keynote" start-time="9:00 am" end-time="10:00 am">
             <title>Design For Real Life</title>
             <location>Jefferson Theater</location>
             <speakers>Sara Wachter-Boettcher</speakers>
             <keywords>content</keywords>
+            <link>http://eduiconf.org/sessions/design-for-real-life/</link>
         </event>
         <event type="Talk" start-time="10:15 am" end-time="11:00 am">
             <title>User Interface in Google’s Virtual Reality Suite</title>
             <location>Old Metropolitan</location>
             <speakers>Anson Parker        David Moody</speakers>
             <keywords>VR, interaction design, user interface</keywords>
+            <link>http://eduiconf.org/sessions/ui-google-vr/</link>
         </event>
         <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
             <title>Google DevFest TBA</title>
             <location>Old Metropolitan</location>
             <speakers></speakers>
             <keywords></keywords>
+            <link>#</link>
         </event>
         <event type="Mini-workshop" start-time="10:30 am" end-time="12:00 pm">
             <title>Content Measurement and Analytics</title>
             <location>LiveArts: Gibson</location>
             <speakers>Rick Allen</speakers>
             <keywords>analytics, content</keywords>
+            <link>http://eduiconf.org/sessions/content-measurement-analytics/</link>
         </event>
         <event type="Talk" start-time="10:15 am" end-time="11:00 am">
             <title>User Experience is a Metric: Defining what UX designers actually do so we can push the discipline forward</title>
             <location>LiveArts: Founders</location>
             <speakers>Michael Schofield</speakers>
             <keywords>management, user experience</keywords>
+            <link>http://eduiconf.org/sessions/ux-metric/</link>
         </event>
         <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
             <title>Tear Down This Wall! Removing boundaries to create an accessible website</title>
             <location>LiveArts: Founders</location>
             <speakers>Sarah Arnold        Tabitha Frahm</speakers>
             <keywords>Accessibility, user testing</keywords>
+            <link>http://eduiconf.org/sessions/tear-down-this-wall/</link>
         </event>
         <event type="Talk" start-time="10:15 am" end-time="11:00 am">
             <title>Building Progressive Web Apps</title>
             <location>LiveArts: Rehearsal A</location>
             <speakers>Michael Szul        Ashish Pathak</speakers>
             <keywords>HTML, JavaScript, coding, mobile, responsive design</keywords>
+            <link>http://eduiconf.org/sessions/progressive-web-apps/</link>
         </event>
         <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
             <title>Hacking User Research: Campus Edition</title>
             <location>LiveArts: Rehearsal A</location>
             <speakers>Lynn Boyden</speakers>
             <keywords>user experience, user testing</keywords>
+            <link>http://eduiconf.org/sessions/hacking-user-research/</link>
         </event>
         <event type="" start-time="12:00 pm" end-time="1:30 pm">
             <title>Lunch on Your Own</title>
             <location>Various</location>
             <speakers></speakers>
             <keywords></keywords>
+            <link>http://eduiconf.org/sessions/lunch-on-your-own/</link>
         </event>
         <event type="Mini-workshop" start-time="1:30 pm" end-time="3:00 pm">
             <title>Google DevFest TBA</title>
             <location>Old Metropolitan</location>
             <speakers></speakers>
             <keywords></keywords>
+            <link>http://eduiconf.org/sessions/google-devfest-tba-2/</link>
         </event>
         <event type="Talk" start-time="1:30 pm" end-time="2:15 pm">
             <title>What Responsive Design Can Teach Us About Accessibility</title>
             <location>LiveArts: Gibson</location>
             <speakers>John Williams</speakers>
             <keywords>Accessibility, responsive design</keywords>
+            <link>http://eduiconf.org/sessions/rwd-accessibility/</link>
         </event>
         <event type="Talk" start-time="2:30 pm" end-time="3:00 pm">
             <title>Is This Better? Google Optimize Primer</title>
             <location>LiveArts: Gibson</location>
             <speakers>Steven D. Shelton</speakers>
             <keywords>analytics, user testing</keywords>
+            <link>http://eduiconf.org/sessions/google-optimize-primer/</link>
         </event>
         <event type="Talk" start-time="1:30 pm" end-time="2:15 pm">
             <title>Case Study: Johns Hopkins University Redesign</title>
             <location>LiveArts: Founders</location>
             <speakers>Lauren Custer        Eric Conrad</speakers>
             <keywords>process, strategy</keywords>
+            <link>http://eduiconf.org/sessions/case-study-jhu-redesign/</link>
         </event>
         <event type="Public Square" start-time="2:30 pm" end-time="3:00 pm">
             <title>Anything But Users: How We Talk About Humans</title>
             <location>LiveArts: Founders</location>
             <speakers>Elissa Frankle</speakers>
             <keywords>user experience</keywords>
+            <link>http://eduiconf.org/sessions/anything-but-users/</link>
         </event>
         <event type="Talk" start-time="1:30 pm" end-time="2:15 pm">
             <title>An Innovation Engine for Penn State</title>
             <location>LiveArts: Rehearsal A</location>
             <speakers>Hayley Wildeson</speakers>
             <keywords>management, process</keywords>
+            <link>http://eduiconf.org/sessions/innovation-engine-penn-state/</link>
         </event>
         <event type="Expert Panel" start-time="2:30 pm" end-time="3:00 pm">
             <title>Creating a Space for Collaborative Instructional Design</title>
             <location>LiveArts: Rehearsal A</location>
             <speakers>Kayla McNabb        Lisa Becksford        Neal Henshaw</speakers>
             <keywords>management, process</keywords>
+            <link>http://eduiconf.org/sessions/collaborative-instructional-design/</link>
         </event>
         <event type="" start-time="3:00 pm" end-time="3:30 pm">
             <title>Exhibitor Meet & Greet</title>
             <location>Various</location>
             <speakers></speakers>
             <keywords></keywords>
+            <link>http://eduiconf.org/sessions/exhibitor-meet-greet/</link>
         </event>
         <event type="Talk" start-time="3:30 pm" end-time="4:15 pm">
             <title>Google Devfest: TBA</title>
             <location>Old Metropolitan</location>
             <speakers></speakers>
             <keywords></keywords>
+            <link>http://eduiconf.org/sessions/google-devfest-tba-4/</link>
         </event>
         <event type="Talk" start-time="4:30 pm" end-time="5:15 pm">
             <title>Google DevFest: TBA</title>
             <location>Old Metropolitan</location>
             <speakers></speakers>
             <keywords></keywords>
+            <link>http://eduiconf.org/sessions/google-devfest-tba-3/</link>
         </event>
         <event type="Talk" start-time="3:30 pm" end-time="4:15 pm">
             <title>Humans not Zombies: Identity-Based Content Strategy for More Engaging Websites</title>
             <location>LiveArts: Gibson</location>
             <speakers>Melissa Eggleston</speakers>
             <keywords>content</keywords>
+            <link>http://eduiconf.org/sessions/humans-not-zombies/</link>
         </event>
         <event type="Talk" start-time="4:30 pm" end-time="5:15 pm">
             <title>The User Experience of Data Visualization</title>
             <location>LiveArts: Gibson</location>
             <speakers>Wendy Repass</speakers>
             <keywords>data visualization, user experience</keywords>
+            <link>http://eduiconf.org/sessions/data-visualization-ux/</link>
         </event>
         <event type="Talk" start-time="3:30 pm" end-time="4:15 pm">
             <title>Design Sprints: A high-value, low-cost approach to problem solving</title>
             <location>LiveArts: Founders</location>
             <speakers>Mike Shelton</speakers>
             <keywords>management, process, strategy</keywords>
+            <link>http://eduiconf.org/sessions/design-sprints/</link>
         </event>
         <event type="Talk" start-time="4:30 pm" end-time="5:15 pm">
             <title>The Decentralized University: Improving Digital Experiences One Site at a Time</title>
             <location>LiveArts: Founders</location>
             <speakers>Kim Vassiliadis</speakers>
             <keywords>management, process, strategy</keywords>
+            <link>http://eduiconf.org/sessions/decentralized-university/</link>
         </event>
         <event type="Mini-workshop" start-time="3:30 pm" end-time="5:00 pm">
             <title>Introduction to IIIF</title>
             <location>LiveArts: Rehearsal A</location>
             <speakers>Shaun Ellis</speakers>
             <keywords>JavaScript, coding, user interface</keywords>
+            <link>http://eduiconf.org/sessions/introduction-to-iiif/</link>
         </event>
         <event type="" start-time="7:00 pm" end-time="10:00 pm">
             <title>After Party</title>
             <location>Various</location>
             <speakers></speakers>
             <keywords></keywords>
-        </event>
-        <event type="" start-time="8:00 am" end-time="9:00 am">
-            <title>Breakfast</title>
-            <location>Various</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Workshop" start-time="9:00 am" end-time="12:00 pm">
-            <title>Building and Animating SVGs</title>
-            <location>CitySpace</location>
-            <speakers>Sarah Drasner</speakers>
-            <keywords>Visual Design, coding</keywords>
-        </event>
-        <event type="Workshop" start-time="9:00 am" end-time="12:00 pm">
-            <title>Compassionate Content & UX</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Sara Wachter-Boettcher</speakers>
-            <keywords>content</keywords>
-        </event>
-        <event type="Workshop" start-time="9:00 am" end-time="12:00 pm">
-            <title>Analytics Workshop</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Nick DeNardis</speakers>
-            <keywords>analytics</keywords>
+            <link>#</link>
         </event>
     </day>
     <day date="2017-09-27">
         <event type="" start-time="8:00 am" end-time="9:00 am">
-            <title>Breakfast and Check In</title>
-            <location>Jefferson Theater</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="" start-time="9:00 am" end-time="10:00 am">
-            <title>Opening Keynote</title>
-            <location>Jefferson Theater</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Talk" start-time="10:15 am" end-time="11:00 am">
-            <title>Going Beyond Google: Custom Site Search Made Easy</title>
-            <location>Old Metropolitan</location>
-            <speakers>Brian Rimel        Matt Clark</speakers>
-            <keywords>CSS, HTML, JavaScript, coding, search</keywords>
-        </event>
-        <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
-            <title>Finding Eternal REST</title>
-            <location>Old Metropolitan</location>
-            <speakers>Curtiss Grymala        John Rhea</speakers>
-            <keywords>CMS, JavaScript, coding</keywords>
-        </event>
-        <event type="Talk" start-time="10:15 am" end-time="11:00 am">
-            <title>The Accessible User Experience</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Robin Smail</speakers>
-            <keywords>Accessibility</keywords>
-        </event>
-        <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
-            <title>Giving Words the Attention They Deserve</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Heidi Burkhardt</speakers>
-            <keywords>content</keywords>
-        </event>
-        <event type="Talk" start-time="10:15 am" end-time="11:00 am">
-            <title>Empathetic Design: Creating Safe Spaces</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Carrie Moran</speakers>
-            <keywords>user experience</keywords>
-        </event>
-        <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
-            <title>Break Your Own Rules: Creating a Digital Brand System that Encourages Creativity</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Jeremy Cherry</speakers>
-            <keywords>branding, management, process</keywords>
-        </event>
-        <event type="Talk" start-time="10:15 am" end-time="11:00 am">
-            <title>Free as in Puppies: The Care & Feeding of “Pet Projects”</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Nikki Massaro Kauffman</speakers>
-            <keywords>management, process</keywords>
-        </event>
-        <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
-            <title>User Experience Design in Virtual and Augmented Reality</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Dan Cotting</speakers>
-            <keywords>VR, interaction design, prototyping, user experience, user interface</keywords>
-        </event>
-        <event type="" start-time="12:00 pm" end-time="1:30 pm">
-            <title>Lunch</title>
-            <location>Various</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Mini-workshop" start-time="1:30 pm" end-time="3:00 pm">
-            <title>Getting Crafty with Components: Breaking Down the How and Why of Atomic Design</title>
-            <location>Old Metropolitan</location>
-            <speakers>John Williams        Jenny Slaughter</speakers>
-            <keywords>Visual Design, responsive design</keywords>
-        </event>
-        <event type="Talk" start-time="3:30 pm" end-time="4:00 pm">
-            <title>Accessible Development For All!</title>
-            <location>Old Metropolitan</location>
-            <speakers>Joni Halabi</speakers>
-            <keywords>Accessibility, HTML, coding</keywords>
-        </event>
-        <event type="Talk" start-time="1:30 pm" end-time="2:15 pm">
-            <title>Representing Diversity on the Web: How to create inclusive virtual campus environments</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Conny Liegl</speakers>
-            <keywords>content, process, strategy</keywords>
-        </event>
-        <event type="Talk" start-time="2:30 pm" end-time="3:15 pm">
-            <title>Internet of Things: Assessing Physical Spaces</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Jonathan Bradley        Scott Fralin</speakers>
-            <keywords>JavaScript, coding</keywords>
-        </event>
-        <event type="Public Square" start-time="3:30 pm" end-time="4:00 pm">
-            <title>You’re the Worst: Content and design strategies for dealing with terrible users</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Adrienne Lai</speakers>
-            <keywords>Visual Design, content, user experience</keywords>
-        </event>
-        <event type="Talk" start-time="1:30 pm" end-time="2:15 pm">
-            <title>Customizing LibGuides for n00bs</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Amanda VerMeulen        Jonathan Beeker</speakers>
-            <keywords>CMS, CSS, HTML</keywords>
-        </event>
-        <event type="Talk" start-time="2:30 pm" end-time="3:15 pm">
-            <title>Journey to an Accessible, Streamlined Campus Theme</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Kevin Pittman</speakers>
-            <keywords>Accessibility, CMS, process</keywords>
-        </event>
-        <event type="Public Square" start-time="3:30 pm" end-time="4:00 pm">
-            <title>Things We Can’t Live Without: Handy Tools for Free to Cheap</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Valerie Harness        Ivy Lustig</speakers>
-            <keywords>social media, user experience, user interface</keywords>
-        </event>
-        <event type="Talk" start-time="1:30 pm" end-time="2:15 pm">
-            <title>Building Bots for the Conversation UI</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Michael Szul</speakers>
-            <keywords>JavaScript, coding, user interface</keywords>
-        </event>
-        <event type="Talk" start-time="2:30 pm" end-time="3:15 pm">
-            <title>The Internal Agency: Bringing websites to the masses</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Lauren Moriarty</speakers>
-            <keywords>CMS, management, process</keywords>
-        </event>
-        <event type="Talk" start-time="3:30 pm" end-time="4:00 pm">
-            <title>Joy from the Collections: Embracing Flat Hierarchies</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Natalie Buda Smith</speakers>
-            <keywords>information architecture, process, strategy</keywords>
-        </event>
-        <event type="Keynote" start-time="4:15 pm" end-time="5:15 pm">
-            <title>Dark Patterns and Bad Business Models: “I Can’t Let You Do That, Dave.”</title>
-            <location>Jefferson Theater</location>
-            <speakers>Cory Doctorow</speakers>
-            <keywords></keywords>
-        </event>
-        <event type="" start-time="6:30 pm" end-time="9:30 pm">
-            <title>Opening Night Reception</title>
-            <location>Various</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="" start-time="8:00 am" end-time="9:00 am">
-            <title>Breakfast</title>
-            <location>Jefferson Theater</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Keynote" start-time="9:00 am" end-time="10:00 am">
-            <title>Design For Real Life</title>
-            <location>Jefferson Theater</location>
-            <speakers>Sara Wachter-Boettcher</speakers>
-            <keywords>content</keywords>
-        </event>
-        <event type="Talk" start-time="10:15 am" end-time="11:00 am">
-            <title>User Interface in Google’s Virtual Reality Suite</title>
-            <location>Old Metropolitan</location>
-            <speakers>Anson Parker        David Moody</speakers>
-            <keywords>VR, interaction design, user interface</keywords>
-        </event>
-        <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
-            <title>Google DevFest TBA</title>
-            <location>Old Metropolitan</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Mini-workshop" start-time="10:30 am" end-time="12:00 pm">
-            <title>Content Measurement and Analytics</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Rick Allen</speakers>
-            <keywords>analytics, content</keywords>
-        </event>
-        <event type="Talk" start-time="10:15 am" end-time="11:00 am">
-            <title>User Experience is a Metric: Defining what UX designers actually do so we can push the discipline forward</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Michael Schofield</speakers>
-            <keywords>management, user experience</keywords>
-        </event>
-        <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
-            <title>Tear Down This Wall! Removing boundaries to create an accessible website</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Sarah Arnold        Tabitha Frahm</speakers>
-            <keywords>Accessibility, user testing</keywords>
-        </event>
-        <event type="Talk" start-time="10:15 am" end-time="11:00 am">
-            <title>Building Progressive Web Apps</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Michael Szul        Ashish Pathak</speakers>
-            <keywords>HTML, JavaScript, coding, mobile, responsive design</keywords>
-        </event>
-        <event type="Talk" start-time="11:15 am" end-time="12:00 pm">
-            <title>Hacking User Research: Campus Edition</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Lynn Boyden</speakers>
-            <keywords>user experience, user testing</keywords>
-        </event>
-        <event type="" start-time="12:00 pm" end-time="1:30 pm">
-            <title>Lunch on Your Own</title>
-            <location>Various</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Mini-workshop" start-time="1:30 pm" end-time="3:00 pm">
-            <title>Google DevFest TBA</title>
-            <location>Old Metropolitan</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Talk" start-time="1:30 pm" end-time="2:15 pm">
-            <title>What Responsive Design Can Teach Us About Accessibility</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>John Williams</speakers>
-            <keywords>Accessibility, responsive design</keywords>
-        </event>
-        <event type="Talk" start-time="2:30 pm" end-time="3:00 pm">
-            <title>Is This Better? Google Optimize Primer</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Steven D. Shelton</speakers>
-            <keywords>analytics, user testing</keywords>
-        </event>
-        <event type="Talk" start-time="1:30 pm" end-time="2:15 pm">
-            <title>Case Study: Johns Hopkins University Redesign</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Lauren Custer        Eric Conrad</speakers>
-            <keywords>process, strategy</keywords>
-        </event>
-        <event type="Public Square" start-time="2:30 pm" end-time="3:00 pm">
-            <title>Anything But Users: How We Talk About Humans</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Elissa Frankle</speakers>
-            <keywords>user experience</keywords>
-        </event>
-        <event type="Talk" start-time="1:30 pm" end-time="2:15 pm">
-            <title>An Innovation Engine for Penn State</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Hayley Wildeson</speakers>
-            <keywords>management, process</keywords>
-        </event>
-        <event type="Expert Panel" start-time="2:30 pm" end-time="3:00 pm">
-            <title>Creating a Space for Collaborative Instructional Design</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Kayla McNabb        Lisa Becksford        Neal Henshaw</speakers>
-            <keywords>management, process</keywords>
-        </event>
-        <event type="" start-time="3:00 pm" end-time="3:30 pm">
-            <title>Exhibitor Meet & Greet</title>
-            <location>Various</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Talk" start-time="3:30 pm" end-time="4:15 pm">
-            <title>Google Devfest: TBA</title>
-            <location>Old Metropolitan</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Talk" start-time="4:30 pm" end-time="5:15 pm">
-            <title>Google DevFest: TBA</title>
-            <location>Old Metropolitan</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="Talk" start-time="3:30 pm" end-time="4:15 pm">
-            <title>Humans not Zombies: Identity-Based Content Strategy for More Engaging Websites</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Melissa Eggleston</speakers>
-            <keywords>content</keywords>
-        </event>
-        <event type="Talk" start-time="4:30 pm" end-time="5:15 pm">
-            <title>The User Experience of Data Visualization</title>
-            <location>LiveArts: Gibson</location>
-            <speakers>Wendy Repass</speakers>
-            <keywords>data visualization, user experience</keywords>
-        </event>
-        <event type="Talk" start-time="3:30 pm" end-time="4:15 pm">
-            <title>Design Sprints: A high-value, low-cost approach to problem solving</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Mike Shelton</speakers>
-            <keywords>management, process, strategy</keywords>
-        </event>
-        <event type="Talk" start-time="4:30 pm" end-time="5:15 pm">
-            <title>The Decentralized University: Improving Digital Experiences One Site at a Time</title>
-            <location>LiveArts: Founders</location>
-            <speakers>Kim Vassiliadis</speakers>
-            <keywords>management, process, strategy</keywords>
-        </event>
-        <event type="Mini-workshop" start-time="3:30 pm" end-time="5:00 pm">
-            <title>Introduction to IIIF</title>
-            <location>LiveArts: Rehearsal A</location>
-            <speakers>Shaun Ellis</speakers>
-            <keywords>JavaScript, coding, user interface</keywords>
-        </event>
-        <event type="" start-time="7:00 pm" end-time="10:00 pm">
-            <title>After Party</title>
-            <location>Various</location>
-            <speakers></speakers>
-            <keywords></keywords>
-        </event>
-        <event type="" start-time="8:00 am" end-time="9:00 am">
             <title>Breakfast</title>
             <location>Various</location>
             <speakers></speakers>
             <keywords></keywords>
+            <link>http://eduiconf.org/sessions/breakfast-wed/</link>
         </event>
         <event type="Workshop" start-time="9:00 am" end-time="12:00 pm">
             <title>Building and Animating SVGs</title>
             <location>CitySpace</location>
             <speakers>Sarah Drasner</speakers>
             <keywords>Visual Design, coding</keywords>
+            <link>http://eduiconf.org/sessions/building-and-animating-svgs/</link>
         </event>
         <event type="Workshop" start-time="9:00 am" end-time="12:00 pm">
             <title>Compassionate Content & UX</title>
             <location>LiveArts: Gibson</location>
             <speakers>Sara Wachter-Boettcher</speakers>
             <keywords>content</keywords>
+            <link>http://eduiconf.org/sessions/compassionate-content-ux/</link>
         </event>
         <event type="Workshop" start-time="9:00 am" end-time="12:00 pm">
             <title>Analytics Workshop</title>
             <location>LiveArts: Rehearsal A</location>
             <speakers>Nick DeNardis</speakers>
             <keywords>analytics</keywords>
+            <link>http://eduiconf.org/sessions/analytics-workshop/</link>
         </event>
     </day>
 </conference>

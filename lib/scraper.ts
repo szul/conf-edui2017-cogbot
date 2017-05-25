@@ -20,12 +20,15 @@ function processPage(body: string, day: string): void {
     let c = cheerio.load(body);
      _xml += `<day date="${day}">`;
      c("article").each((idx: number, elem: CheerioElement) => {
-        _xml += `<event type="${c(elem).find(".session-type").text().trim()}" ${getDate(c(elem).find(".session-date").text().trim())}>`;
-        _xml += `<title>${c(elem).find(".full-session-title").text().trim()}</title>`;
-        _xml += `<location>${c(elem).find(".session-location").text().trim()}</location>`;
-        _xml += `<speakers>${c(elem).find(".session-speakers").text().trim()}</speakers>`;
-        _xml += `<keywords>${c(elem).find(".session-categories").text().trim().replace("Categories: ", "")}</keywords>`;
-        _xml += "</event>";
+         if(c(elem).attr("data-start").indexOf(day) > -1) {
+            _xml += `<event type="${c(elem).find(".session-type").text().trim()}" ${getDate(c(elem).find(".session-date").text().trim())}>`;
+            _xml += `<title>${c(elem).find(".full-session-title").text().trim()}</title>`;
+            _xml += `<location>${c(elem).find(".session-location").text().trim()}</location>`;
+            _xml += `<speakers>${c(elem).find(".session-speakers").text().trim()}</speakers>`;
+            _xml += `<keywords>${c(elem).find(".session-categories").text().trim().replace("Categories: ", "")}</keywords>`;
+            _xml += `<link>${c(elem).find("a").attr("href")}</link>`;
+            _xml += "</event>";
+         }
      });
      _xml += "</day>";
 }
