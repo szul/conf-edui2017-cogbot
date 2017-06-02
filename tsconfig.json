@@ -10,6 +10,7 @@
                 "allowJs": true
             },
     "files": [
+        "./lib/types.ts",
         "./lib/scraper.ts",
         "./lib/dialogs.ts",
         "./lib/parser.ts",

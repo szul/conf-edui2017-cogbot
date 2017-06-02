@@ -1,37 +1,14 @@
 import * as fs from "fs";
 import * as cheerio from "cheerio";
 import * as builder from "botbuilder";
+import * as types from "./types";
 
 var dialogs = require("./dialogs");
-
-export enum Intent {
-      LOCATION = 0
-    , SCHEDULE = 1
-    , TOPIC = 2
-}
-
-export interface Image {
-      type: string
-    , link: string
-}
-
-export interface Event {
-      date: string
-    , startTime: string
-    , endTime: string
-    , title: string
-    , speakers: string
-    , location: string
-    , keywords: string
-    , link: string
-    , type: string
-    , images?: Array<Image>
-}
 
 const file: string = fs.readFileSync("./edui.xml", "utf-8");
 const xml: CheerioStatic = cheerio.load(file);
 
-function getData(e: any): Array<Event> {
+function getData(e: any): Array<types.Event> {
     if(e != null) {
         if(e.type === "person") {
             return getPerson(e.entity);
@@ -40,13 +17,14 @@ function getData(e: any): Array<Event> {
             return getTopic(e.entity);
         }
     }
+    return [];
 }
 
-function getPerson(search: string): Array<Event> {
+function getPerson(search: string): Array<types.Event> {
     return writeEvent(getEventNodes("speakers", search));
 }
 
-function getTopic(search: string): Array<Event> {
+function getTopic(search: string): Array<types.Event> {
     return writeEvent(getEventNodes("keywords", search).concat(getEventNodes("title", search)));
 }
 
@@ -60,11 +38,11 @@ function getEventNodes(s: string, t: string): Array<CheerioElement> {
     return events;
 }
 
-function writeEvent(events: Array<CheerioElement>): Array<Event> {
-    var results: Array<Event> = [];
+function writeEvent(events: Array<CheerioElement>): Array<types.Event> {
+    var results: Array<types.Event> = [];
     for(let i = 0; i < events.length; i++) {
         let elem = xml(events[i]);
-        let r: Event = {
+        let r: types.Event = {
               date: elem.parent().attr("date")
             , startTime: elem.attr("start-time")
             , endTime: elem.attr("end-time")
@@ -76,7 +54,7 @@ function writeEvent(events: Array<CheerioElement>): Array<Event> {
             , type: elem.attr("type")
         };
         if(elem.find("image").length > 0) {
-            let imgs: Array<Image> = [];
+            let imgs: Array<types.Image> = [];
             elem.find("image").each((idx: number, el: CheerioElement) => {
                 imgs.push({
                       type: xml(el).attr("type")
@@ -90,29 +68,15 @@ function writeEvent(events: Array<CheerioElement>): Array<Event> {
     return results;
 }
 
-export function parse(sess: builder.Session, intent: Intent, entities: any): builder.HeroCard | Array<string> {
+export function parse(sess: builder.Session, intent: types.Intent, entities: any): builder.HeroCard | Array<string> {
     var r = getData(entities.person).concat(getData(entities.topic));
-    switch(intent) {
-        case Intent.LOCATION:
-            if(r.length > 1) {
-                return dialogs.createChoiceOptions(r);
-            }
-            return (r.length === 1) ? dialogs.createHeroCard(sess, r[0]) : null;
-        case Intent.SCHEDULE:
-            if(r.length > 1) {
-                return dialogs.createChoiceOptions(r);
-            }
-            return (r.length === 1) ? dialogs.createHeroCard(sess, r[0]) : null;
-        case Intent.TOPIC:
-            if(r.length > 1) {
-                return dialogs.createChoiceOptions(r);
-            }
-            return (r.length === 1) ? dialogs.createHeroCard(sess, r[0]) : null;
+    if(r.length > 1) {
+        return dialogs.createChoiceOptions(r);
     }
-    return null;
+    return (r.length === 1) ? dialogs.createHeroCard(sess, r[0], intent) : null;
 }
 
-export function findExact(s: string, t: string): Event {
+export function findExact(s: string, t: string): types.Event {
     var e = writeEvent(getEventNodes(s, t));
     return (e.length > 0) ? e[0] : null;
 }

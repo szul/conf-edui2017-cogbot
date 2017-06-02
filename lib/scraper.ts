@@ -1,6 +1,7 @@
 import * as request from "request-promise";
 import * as cheerio from "cheerio";
 import * as fs from "fs";
+import * as types from "./types";
 
 var requestSync = require("sync-request");
 

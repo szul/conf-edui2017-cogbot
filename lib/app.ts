@@ -1,5 +1,6 @@
 import * as builder from "botbuilder";
 import * as restify from "restify";
+import * as types from "./types";
 
 require("dotenv-extended").load();
 
@@ -11,6 +12,20 @@ function getEntities(b: any, a: any): any {
           person: b.EntityRecognizer.findEntity(a.intent.entities, "person")
         , topic: b.EntityRecognizer.findEntity(a.intent.entities, "topic")
     };
+}
+
+function sendChoice(sess: builder.Session, intent: types.Intent, args: any): void {
+    var d = parser.parse(sess, intent, getEntities(builder, args));
+    if(d instanceof Array) {
+        builder.Prompts.choice(sess, "We are showing multiple results. Please choose one:", d);
+    }
+    else {
+        sess.send(new builder.Message(sess).addAttachment(d));
+    }
+}
+
+function sendCard(sess: builder.Session, results: any): void {
+    sess.send(new builder.Message(sess).addAttachment(dialogs.createHeroCard(sess, parser.findExact("title", results.response.entity))));
 }
 
 function startServer(): void {
@@ -43,16 +58,10 @@ function startBot(server: restify.Server): void {
 
     bot.dialog("location", [
         (sess, args, next) => {
-            var d = parser.parse(sess, parser.Intent.LOCATION, getEntities(builder, args));
-            if(d instanceof Array) {
-                builder.Prompts.choice(sess, "We are showing multiple results. Please choose one:", d);
-            }
-            else {
-                sess.send(new builder.Message(sess).addAttachment(d));
-            }
+            sendChoice(sess, types.Intent.LOCATION, args);
         },
         (sess, results) => {
-            sess.send(new builder.Message(sess).addAttachment(dialogs.createHeroCard(sess, parser.findExact("title", results.response.entity))));
+            sendCard(sess, results);
         }
     ]).triggerAction({
         matches: "location"
@@ -60,16 +69,10 @@ function startBot(server: restify.Server): void {
 
     bot.dialog("schedule", [
         (sess, args, next) => {
-            var d = parser.parse(sess, parser.Intent.SCHEDULE, getEntities(builder, args));
-            if(d instanceof Array) {
-                builder.Prompts.choice(sess, "We are showing multiple results. Please choose one:", d);
-            }
-            else {
-                sess.send(new builder.Message(sess).addAttachment(d));
-            }
+            sendChoice(sess, types.Intent.SCHEDULE, args);
         },
         (sess, results) => {
-            sess.send(new builder.Message(sess).addAttachment(dialogs.createHeroCard(sess, parser.findExact("title", results.response.entity))));
+            sendCard(sess, results);
         }
     ]).triggerAction({
         matches: "schedule"
@@ -77,16 +80,10 @@ function startBot(server: restify.Server): void {
 
     bot.dialog("topic", [
         (sess, args, next) => {
-            var d = parser.parse(sess, parser.Intent.TOPIC, getEntities(builder, args));
-            if(d instanceof Array) {
-                builder.Prompts.choice(sess, "We are showing multiple results. Please choose one:", d);
-            }
-            else {
-                sess.send(new builder.Message(sess).addAttachment(d));
-            }
+            sendChoice(sess, types.Intent.TOPIC, args);
         },
         (sess, results) => {
-            sess.send(new builder.Message(sess).addAttachment(dialogs.createHeroCard(sess, parser.findExact("title", results.response.entity))));
+            sendCard(sess, results);
         }
     ]).triggerAction({
         matches: "topic"
