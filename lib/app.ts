@@ -19,8 +19,11 @@ function sendChoice(sess: builder.Session, intent: types.Intent, args: any): voi
     if(d instanceof Array) {
         builder.Prompts.choice(sess, "We are showing multiple results. Please choose one:", d);
     }
-    else {
+    else if(d !== null) {
         sess.send(new builder.Message(sess).addAttachment(d));
+    }
+    else {
+        sess.send("Sorry, I don't understand what you said.");
     }
 }
 
